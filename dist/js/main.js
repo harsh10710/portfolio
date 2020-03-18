@@ -11,7 +11,7 @@ menubtn.addEventListener('click',toggleMenu);
 
 function toggleMenu(){
     if(!showmenu){
-    menubtn.classList.add('show');
+    menubtn.classList.add('close');
     menu.classList.add('show'); 
     menubNav.classList.add('show'); 
     menuBranding.classList.add('show');
@@ -19,7 +19,7 @@ function toggleMenu(){
     showmenu=true;
     }else{
 
-        menubtn.classList.remove('show');
+        menubtn.classList.remove('close');
         menu.classList.remove('show'); 
         menubNav.classList.remove('show'); 
         menuBranding.classList.remove('show');
