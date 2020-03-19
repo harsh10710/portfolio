@@ -1,12 +1,20 @@
 @include mediXL{
+    .projects{
+        grid-template-columns: repeat(4,1fr);
+    }
 
 }
 @include mediLg{
-
+    .projects{
+        grid-template-columns: repeat(3,1fr);
+    }
 }
 @include mediSm{
     main#home{
         margin-top: 10vh;
+    }
+    .projects{
+        grid-template-columns: repeat(1,1fr);
     }
    
 
@@ -52,5 +60,8 @@
         'job3'
         ;
         grid-template-columns: 1fr;
+    }
+    .projects{
+        grid-template-columns: repeat(2,1fr);
     }
 }
