@@ -25,3 +25,28 @@ $background-opacity:0.9;
         }
     }
 }
+@mixin mediSm{
+   @media screen  and (max-width:500px){
+       @content;
+       
+   }    
+}
+
+@mixin mediLg {
+    @media screen  and (max-width:769px){
+        @content;
+        
+    }    
+ }
+ @mixin mediMd {
+    @media screen  and (max-width:768px){
+        @content;
+        
+    }    
+ }
+ @mixin mediXL {
+    @media screen  and (min-width:1171px){
+        @content;
+        
+    }    
+ }
